@@ -9,6 +9,7 @@ import RegistrationForm from "./components/registerForm";
 import CartContextProvider from "./Contexts/cartContextProvider";
 import ShoppingPage from "./components/ShoppingPage";
 import Index from "./components";
+import { ProductsProvider } from "./Contexts/ProductsProvider";
 
 const App = () => {
   return (
