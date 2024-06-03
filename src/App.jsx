@@ -1,5 +1,5 @@
 import Layout from "./Layouts/layout";
-import { Routes,Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Products from "./components/products";
 import ProductsDetails from "./components/productsDetails";
 import CheckOut from "./components/checkOut";
@@ -15,19 +15,19 @@ const App = () => {
     <ProductsProvider>
       <CartContextProvider>
         <Layout>
-    <Routes>
-        <Route index path="/" element={<Index/>}/>
-        <Route path="/products" element={<Products/>}/>
-        <Route path="/ShoppingCart" element={<ShoppingPage/>}/>
-        <Route path="/products/:id" element={<ProductsDetails/>}/>
-        <Route path="/signUp" element={<RegistrationForm/>}/>
-        <Route path="/checkout" element={<CheckOut/>}/>
-        <Route path="/*" element={<NotFound/>}/>
-      </Routes>
-      </Layout>
+          <Routes>
+            <Route index path="/" element={<Index />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/ShoppingCart" element={<ShoppingPage />} />
+            <Route path="/products/:id" element={<ProductsDetails />} />
+            <Route path="/signUp" element={<RegistrationForm />} />
+            <Route path="/checkout" element={<CheckOut />} />
+            <Route path="/*" element={<NotFound />} />
+          </Routes>
+        </Layout>
       </CartContextProvider>
     </ProductsProvider>
   );
-}
+};
 
 export default App;
