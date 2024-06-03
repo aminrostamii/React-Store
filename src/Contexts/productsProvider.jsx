@@ -37,5 +37,5 @@ const useProductDetails=(id)=>{
          return result;
 }
 
-export { ProductsProvider} ;
+export default ProductsProvider;
 export {useProducts,useProductDetails} ;
