@@ -4,7 +4,7 @@ import Products from "./components/products";
 import ProductsDetails from "./components/productsDetails";
 import CheckOut from "./components/checkOut";
 import NotFound from "./components/notFound";
-import { ProductsProvider } from "./Contexts/ProductsProvider";
+import ProductsProvider from "./Contexts/ProductsProvider";
 import RegistrationForm from "./components/registerForm";
 import CartContextProvider from "./Contexts/cartContextProvider";
 import ShoppingPage from "./components/ShoppingPage";
