@@ -6,16 +6,7 @@ Welcome to the React Store project! This project is a web application for an onl
 
 - [Features](#features)
 - [Technologies](#technologies)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
-## Demo
-
-Check out the live demo of the React Store [here](#).
 
 ## Features
 
