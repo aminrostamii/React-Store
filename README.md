@@ -4,7 +4,6 @@ Welcome to the React Store project! This project is a web application for an onl
 
 ## Table of Contents
 
-- [Demo](#demo)
 - [Features](#features)
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
